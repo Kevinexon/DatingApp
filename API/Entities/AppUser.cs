@@ -23,5 +23,7 @@ namespace API.Entities
         public ICollection<Photo> Photos { get; set; }
         public ICollection<UserLike> LikedByUsers { get; set; } //polubienia innych użytkowników
         public ICollection<UserLike> LikedUsers { get; set; }//polubieni użytkownicy
+        public ICollection<Message> MessagesSent { get; set; }
+        public ICollection<Message> MessagesReceived { get; set; }
     }
 }
